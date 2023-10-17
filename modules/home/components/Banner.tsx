@@ -5,7 +5,7 @@ import { SAWERIA_URL } from '@/common/constant';
 
 const ResponsiveBanner = () => {
  return (
-    <div className=" bg-[#8979FF] dark:bg-[#4532DC] text-[#070517] dark:text-white py-8 px-4 rounded-md">
+    <div className=" bg-gradient-to-tr bg-white dark:from-indigo-950 dark:to-indigo-800 dark:text-white rounded-2xl py-5 px-6 cursor-pointer hover:scale-[101%] hover:shadow-sm transition-all duration-300 border dark:border-[#4532dc]">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex gap-2 text-2xl lg:text-3xl font-medium font-sora">

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 import { ContentProps } from '@/common/types/learn';
-
+import LearnHero from './LearnHero'
 import LearnCard from './LearnCard';
 
 interface LearnModuleProps {
@@ -12,7 +12,11 @@ interface LearnModuleProps {
 
 export default function LearnModule({ contents }: LearnModuleProps) {
   return (
-    <div className="grid sm:grid-cols-2 gap-5 pt-2">
+    <div>
+      <div>
+        <LearnHero />
+      </div>
+      <div className="grid sm:grid-cols-2 gap-5 pt-2">
       {contents?.map((content, index) => (
         <motion.div
           key={index}
@@ -24,5 +28,10 @@ export default function LearnModule({ contents }: LearnModuleProps) {
         </motion.div>
       ))}
     </div>
+    </div>
+    
+
   );
 }
+
+

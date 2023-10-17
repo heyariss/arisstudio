@@ -13,7 +13,7 @@ import {
   BsGithub as GithubIcon,
   BsInstagram as InstagramIcon,
   BsLinkedin as LinkedinIcon,
-  BsTiktok as TiktokIcon,
+  BsBehance as BehanceIcon,
   BsTwitter as TwitterIcon,
   BsYoutube as YoutubeIcon
 } from 'react-icons/bs';
@@ -101,7 +101,7 @@ export const MENU_ITEMS: MenuItemProps[] = [
 export const SOCIAL_MEDIA: MenuItemProps[] = [
   {
     title: 'Github',
-    href: 'https://github.com/Bayusetiawan45',
+    href: 'https://github.com/heyariss',
     icon: <GithubIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
@@ -109,23 +109,15 @@ export const SOCIAL_MEDIA: MenuItemProps[] = [
   },
   {
     title: 'Linkedin',
-    href: 'https://www.linkedin.com/in/bayu-setiawan99/',
+    href: 'https://www.linkedin.com/in/riskiarissandy/',
     icon: <LinkedinIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
     eventName: 'Social: Linkedin'
   },
   {
-    title: 'Twitter',
-    href: 'https://twitter.com/',
-    icon: <TwitterIcon size={iconSize} />,
-    isShow: false,
-    isExternal: true,
-    eventName: 'Social: Twitter'
-  },
-  {
     title: 'Instagram',
-    href: 'https://instagram.com/bayustr__',
+    href: 'https://instagram.com/aris.studes',
     icon: <InstagramIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
@@ -140,27 +132,19 @@ export const SOCIAL_MEDIA: MenuItemProps[] = [
     eventName: 'Social: Threads'
   },
   {
-    title: 'Discord',
-    href: 'https://discord.gg/76UFeGdXy6',
-    icon: <DiscordIcon size={iconSize} />,
+    title: 'Behance',
+    href: 'https://www.behance.net/riskiariss',
+    icon: <BehanceIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
-    eventName: 'Social: Discord'
+    eventName: 'Social: Behance'
   },
   {
     title: 'Youtube',
-    href: 'https://www.youtube.com/@codebayu',
+    href: 'https://youtu.be/z-9LizCkPqc?si=1_4_inq0p02qMkT8',
     icon: <YoutubeIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
     eventName: 'Social: Youtube'
-  },
-  {
-    title: 'TikTok',
-    href: 'https://www.tiktok.com/@codebayu.com',
-    icon: <TiktokIcon size={iconSize} />,
-    isShow: true,
-    isExternal: true,
-    eventName: 'Social: Tiktok'
   }
 ];

@@ -1,5 +1,16 @@
 export const CAREERS = [
   {
+    position: 'Fullstack Developer (Supply)',
+    company: 'Sribu Tech',
+    logo: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697532838/qbvt9f1jucisieyftnls_ulehkk.png',
+    location: 'South Jakarta',
+    location_type: 'On Site',
+    type: 'Fulltime',
+    start_date: '2023-09',
+    end_date: '',
+    link: 'https://tech.sribu.com/'
+  },
+  {
     position: 'Web Developer',
     company: 'Radian Edu solution',
     logo: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1696780135/a8cedc0650544e1b25e3b7199e255f6d_mzh9rd.jpg',
