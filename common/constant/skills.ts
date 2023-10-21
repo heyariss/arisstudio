@@ -3,18 +3,29 @@ export const SKILLS = [
   'React.js',
   'Nuxt.js',
   'Vue.js',
+  'Postman',
   'React Native',
   'React Query',
   'Node JS',
   'TailwindCSS',
-  'Material UI',
+  'Anaconda',
+  'Git',
   'Bootstrap',
   'Laravel',
   'Firebase',
   'PostgreSql',
   'Prisma',
-  'JavaScript',
+  'WordPress',
   'TypeScript',
-  'HTML',
-  'CSS'
+  'JavaScript',
+  'CSS',
+  'HTML'
+];
+
+export const DESIGNSKILLS = [
+  'Figma',
+  'Adobe Photoshop',
+  'Adobe Illustrator',
+  'Framer Motion',
+  'Adobe After Effect'
 ];

@@ -3,21 +3,35 @@ import { HiCode } from 'react-icons/hi';
 import SectionHeading from '@/common/components/elements/SectionHeading';
 import SectionSubHeading from '@/common/components/elements/SectionSubHeading';
 import { SKILLS } from '@/common/constant/skills';
+import { DESIGNSKILLS } from '@/common/constant/skills';
 
 import SkillCard from './SkillCard';
 
 export default function SkillList() {
   return (
     <section className="space-y-6">
+      {/* Skill Programming */}
       <div className="space-y-2">
         <SectionHeading title="Skills" icon={<HiCode className="mr-1" />} />
         <SectionSubHeading>
-          <p className="dark:text-neutral-400">Programming skills.</p>
+          <p className="dark:text-neutral-400">Technology Stack</p>
         </SectionSubHeading>
       </div>
 
       <div className="flex flex-wrap gap-6">
         {SKILLS?.map((skill, index) => <SkillCard key={index} skill={skill} />)}
+      </div>
+
+
+      {/* skill design */}
+      <div className="space-y-2">
+        <SectionSubHeading>
+          <p className="dark:text-neutral-400">Design Skillset</p>
+        </SectionSubHeading>
+      </div>
+
+      <div className="flex flex-wrap gap-6">
+        {DESIGNSKILLS?.map((skill, index) => <SkillCard key={index} skill={skill} />)}
       </div>
     </section>
   );

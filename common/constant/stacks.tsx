@@ -1,15 +1,16 @@
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import {
-  SiApollographql,
+  SiAnaconda,
   SiCss3,
   SiExpo,
   SiExpress,
   SiFirebase,
   SiFramer,
   SiGithub,
+  SiGit,
   SiGraphql,
-  SiGulp,
+  SiPostman,
   SiHtml5,
   SiJavascript,
   SiJest,
@@ -31,6 +32,10 @@ import {
   SiTypescript,
   SiVite,
   SiVuedotjs,
+  SiFigma,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobeaftereffects,
   SiWordpress
 } from 'react-icons/si';
 
@@ -49,8 +54,8 @@ export const STACKS: stacksProps = {
   TailwindCSS: <SiTailwindcss size={iconSize} className="text-cyan-300" />,
   Bootstrap: <BsFillBootstrapFill size={iconSize} className="text-purple-500" />,
   GraphQL: <SiGraphql size={iconSize} className="text-pink-600" />,
-  Apollo: <SiApollographql size={iconSize} />,
-  WordPress: <SiWordpress size={iconSize} />,
+  Anaconda: <SiAnaconda size={iconSize} className="text-green-500" />,
+  'WordPress': <SiWordpress size={iconSize} className="text-sky-600" />,
   Laravel: <SiLaravel size={iconSize} className="text-red-500" />,
   'Material UI': <SiMui size={iconSize} className="text-sky-400" />,
   Vite: <SiVite size={iconSize} className="text-purple-500" />,
@@ -58,8 +63,8 @@ export const STACKS: stacksProps = {
   'React Native': <SiReact size={iconSize} className="text-sky-600" />,
   Expo: <SiExpo size={iconSize} />,
   SASS: <SiSass size={iconSize} className="text-pink-600" />,
-  Gulp: <SiGulp size={iconSize} className="text-red-500" />,
-  Firebase: <SiFirebase size={iconSize} className="text-yellow-500" />,
+  'Postman': <SiPostman size={iconSize} className="text-orange-500" />,
+  'Firebase': <SiFirebase size={iconSize} className="text-yellow-500" />,
   'Framer Motion': <SiFramer size={iconSize} />,
   'Nuxt.js': <SiNuxtdotjs size={iconSize} className="text-green-600" />,
   'Vue.js': <SiVuedotjs size={iconSize} className="text-green-500" />,
@@ -71,8 +76,13 @@ export const STACKS: stacksProps = {
   Prisma: <SiPrisma size={iconSize} className="text-teal-500" />,
   'Node JS': <SiNodedotjs size={iconSize} className="text-green-600" />,
   Github: <SiGithub size={iconSize} />,
+  Git: <SiGit  size={iconSize} className="text-orange-500" />,
   Storybook: <SiStorybook size={iconSize} className="text-pink-500" />,
   'React Router': <SiReactrouter size={iconSize} className="text-pink-500" />,
   'React Hook Form': <SiReacthookform size={iconSize} className="text-pink-500" />,
+  'Figma': <SiFigma size={iconSize} />,
+  'Adobe Illustrator': <SiAdobeillustrator size={iconSize} className="text-orange-900 dark:text-orange-500" />,
+  'Adobe Photoshop': <SiAdobephotoshop size={iconSize} className="text-blue-950 dark:text-blue-500" />,
+  'Adobe After Effect': <SiAdobeaftereffects size={iconSize} className="text-indigo-500 dark:text-indigo-300" />,
   'React Table': <SiReacttable size={iconSize} className="text-rose-600" />
 };
