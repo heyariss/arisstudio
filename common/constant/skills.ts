@@ -24,6 +24,7 @@ export const SKILLS = [
 
 export const DESIGNSKILLS = [
   'Figma',
+  'Adobe XD',
   'Adobe Photoshop',
   'Adobe Illustrator',
   'Framer Motion',

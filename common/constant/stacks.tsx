@@ -36,6 +36,7 @@ import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiAdobeaftereffects,
+  SiAdobexd,
   SiWordpress
 } from 'react-icons/si';
 
@@ -83,6 +84,7 @@ export const STACKS: stacksProps = {
   'Figma': <SiFigma size={iconSize} />,
   'Adobe Illustrator': <SiAdobeillustrator size={iconSize} className="text-orange-900 dark:text-orange-500" />,
   'Adobe Photoshop': <SiAdobephotoshop size={iconSize} className="text-blue-950 dark:text-blue-500" />,
+  'Adobe XD': <SiAdobexd size={iconSize} className="text-pink-900" />,
   'Adobe After Effect': <SiAdobeaftereffects size={iconSize} className="text-indigo-500 dark:text-indigo-300" />,
   'React Table': <SiReacttable size={iconSize} className="text-rose-600" />
 };
