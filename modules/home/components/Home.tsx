@@ -6,6 +6,7 @@ import ResponsiveBanner from './Banner';
 import CareerList from './CareerList';
 import LatestArticle from './LatestArticle';
 
+
 const SkillList = lazy(() => import('./SkillList'));
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <CareerList />
       <Breakline className="my-6" />
       <SkillList />
+      <Breakline className="my-6" />
     </>
   );
 }

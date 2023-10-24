@@ -27,7 +27,7 @@ export default function ProfileHeader({ expandMenu, imageSize }: ProfileHeaderPr
     >
       <div className="relative overflow-hidden hidden w-full pb-2 lg:flex flex-col items-center">
         <Status />
-        <div className="w-full h-24 overflow-hidden dark:brightness-50 rounded-lg">
+        <div className="w-full h-24 overflow-hidden dark:brightness-75 rounded-lg">
           <NextImage
             src={BACKDROP_IMAGE}
             alt="profile"
