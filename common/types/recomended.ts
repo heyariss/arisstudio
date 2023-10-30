@@ -3,5 +3,6 @@ export interface RecomendedProps {
     profession: string;
     text: string;
     image: string;
+    linkedin: string;
   }
   

@@ -1,26 +1,33 @@
 export const RECOMENDED = [
-{
-    image:'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
-    name:'Angga Setiawan',
-    profession:'Kepala Bidang Penempatan Kerja dan Kerjasama LP3I',
-    text:'I have learned a lot about Next.js and Tailwind CSS. It has made my development process a lot more efficient.'
-}
+    {
+      linkedin: 'https://www.linkedin.com/in/anggara-setiawan-223689177/',
+      image: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
+      name: 'Angga Setiawan',
+      profession: 'KABID C&P LP3I Jakarta',
+      text: 'Saya sangat merekomendasikan Aris sebagai web developer. Aris memiliki keterampilan teknis yang kuat dan pengalaman yang luas dalam membangun website yang berkualitas. Dia juga merupakan pekerja keras dan berorientasi pada detail, yang membuatnya menjadi aset berharga bagi tim mana pun.'
+    },
+    {
+      linkedin: 'https://www.linkedin.com/in',
+      image: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
+      name: 'Angga Setiawan',
+      profession: 'HR Development',
+      text: 'Saya sangat merekomendasikan Aris sebagai web developer. Aris memiliki keterampilan teknis yang kuat dan pengalaman yang luas dalam membangun website yang berkualitas. Dia juga merupakan pekerja keras dan berorientasi pada detail, yang membuatnya menjadi aset berharga bagi tim mana pun.'
+    }
 ]
 
 export const RECOMENDEDDUA = [
-{
-    image:'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
-    name:'Ika Rizki',
-    profession:'Human Resources',
-    text:'I have learned a lot about Next.js and Tailwind CSS. It has made my development process a lot more efficient.'
-}
-]
-
-export const RECOMENDEDTIGA = [
-{
-    image:'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
-    name:'John Doe',
-    profession:'Web Developer',
-    text:'I have learned a lot about Next.js and Tailwind CSS. It has made my development process a lot more efficient.'
-}
+  {
+    linkedin: 'https://www.linkedin.com/in/anggara-setiawan-223689177/',
+    image: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
+    name: 'Angga Setiawan',
+    profession: 'KABID C&P LP3I Jakarta',
+    text: 'Saya sangat merekomendasikan Aris sebagai web developer. Aris memiliki keterampilan teknis yang kuat dan pengalaman yang luas dalam membangun website yang berkualitas. Dia juga merupakan pekerja keras dan berorientasi pada detail, yang membuatnya menjadi aset berharga bagi tim mana pun.'
+  },
+  {
+    linkedin: 'https://www.linkedin.com/in',
+    image: 'https://res.cloudinary.com/dm2n9z3qd/image/upload/v1697977751/userprofile_ajdx1l.png',
+    name: 'Angga Setiawan',
+    profession: 'HR Development',
+    text: 'Saya sangat merekomendasikan Aris sebagai web developer. Aris memiliki keterampilan teknis yang kuat dan pengalaman yang luas dalam membangun website yang berkualitas. Dia juga merupakan pekerja keras dan berorientasi pada detail, yang membuatnya menjadi aset berharga bagi tim mana pun.'
+  }
 ]
