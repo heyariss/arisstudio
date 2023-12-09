@@ -34,22 +34,3 @@ export default function RecomendedCard({ image, name, profession, text, linkedin
     </div>
   );
 }
-
-//return (
-  //   <>
-  //   <div>
-  //   <Card className="flex items-center text-center gap-5 py-4 px-6 border border-neutral-300 dark:border-neutral-800 dark:bg-neutral-800">
-  //     <div className="flex items-center">
-  //           <div className="bg-white p-6 rounded-lg shadow-lg relative">
-  //                 {image ? <Image src={image} width={55} height={55} alt={name} /> : <RecomendedIcon size={30} />}
-              
-  //             <div className="ml-3">
-  //               <p className="text-gray-700">{name}</p>
-  //               <p className="text-gray-500">{profession}</p>
-  //             </div>
-  //           </div>
-  //     </div>
-  //   </Card>
-  //   </div>
-  //   </>
-  // );
