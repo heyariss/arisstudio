@@ -9,12 +9,10 @@ import {
   BiAt as ThreadsIcon
 } from 'react-icons/bi';
 import {
-  BsDiscord as DiscordIcon,
   BsGithub as GithubIcon,
   BsInstagram as InstagramIcon,
   BsLinkedin as LinkedinIcon,
   BsBehance as BehanceIcon,
-  BsTwitter as TwitterIcon,
   BsYoutube as YoutubeIcon
 } from 'react-icons/bs';
 import { LuTrello, LuWorkflow } from 'react-icons/lu';
